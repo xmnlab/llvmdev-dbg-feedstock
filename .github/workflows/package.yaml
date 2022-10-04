@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     # https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
     # * is a special character in YAML so you have to quote this string
